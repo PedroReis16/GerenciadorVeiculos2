@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GerenciadorVeiculos
 {
-    internal class VeiculoLimpador
+    public class VeiculoLimpador
     {
     }
 }

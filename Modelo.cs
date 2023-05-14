@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GerenciadorVeiculos
 {
-    public class Onibus
+    public class Modelo
     {
     }
 }
