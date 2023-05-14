@@ -26,7 +26,7 @@ namespace GerenciadorVeiculos
         }
         public override string ToString()
         {
-            return $"Identificação: {Identificação} | Localização: {Localização} | Saldo: R$ {Saldo} |";
+            return $"Identificação: {Identificacao} | Localização: {Localizacao} | Saldo: R$ {Saldo} |";
         }
     }
 }
