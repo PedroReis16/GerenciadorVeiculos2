@@ -58,6 +58,7 @@
     </Compile>
     <Compile Include="Marca.cs" />
     <Compile Include="Modelo.cs" />
+    <Compile Include="Moto.cs" />
     <Compile Include="Navio.cs" />
     <Compile Include="NavioGuerra.cs" />
     <Compile Include="Onibus.cs" />

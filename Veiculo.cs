@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace GerenciadorVeiculos
 {
-    abstract class Veiculo
+    public abstract class Veiculo
     {
         private string Id;
         private Modelo modelo;
         private double velocidade;
         private int Passageiros;
 
-        public string Identificação
+        public string Identificacao
         {
             get => Id;
             set
@@ -64,7 +64,7 @@ namespace GerenciadorVeiculos
         }
         public override string ToString()
         {
-            return "Identificação: " + Identificação + "| Modelo :" + Modelo.Descricao + "| Marca : " + Modelo.Marca.Descricao +
+            return "Identificação: " + Identificacao + "| Modelo :" + Modelo.Descricao + "| Marca : " + Modelo.Marca.Descricao +
                 "Velocidade: " + Velocidade + "Km/h" + "| Capacidade de passageiros: " + CapacidadePassageiros;
         }
     }
