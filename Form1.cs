@@ -357,7 +357,29 @@ namespace GerenciadorVeiculos
 
         private void btnDecolar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                foreach (Veiculo item in dadosVeiculo)
+                {
+                    if (cbConsultarVeiculos.Text == item.Identificacao && item is Aviao)
+                    {
+                        (item as Aviao).Decolar();
+                        break;
+                    }
+                    if (cbConsultarVeiculos.Text == item.Identificacao && item is AviaoGuerra)
+                    {
+                        (item as AviaoGuerra).Decolar();
+                        break;
+                    }
+                }
+                DAO.GravarArquivo(this);
 
+
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
 
         private void btnEjetar_Click(object sender, EventArgs e)
@@ -624,7 +646,67 @@ namespace GerenciadorVeiculos
 
         private void btnOk_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+                if (AcoesCb.SelectedIndex == 0)
+                {
+                    foreach (Veiculo item in dadosVeiculo)
+                    {
+                        if (item is VeiculoLimpador)
+                        {
+                            (item as VeiculoLimpador).Limpador = true;
+                            (item as VeiculoLimpador).LimpadorStatus();
+                        }
+                    }
+                    MessageBox.Show("Todos Limapdores foram LIGADOS.");
+                }
+                else if (AcoesCb.SelectedIndex == 1)
+                {
+                    foreach (Veiculo item in dadosVeiculo)
+                    {
+                        if (item is Navio)
+                        {
+                            (item as Navio).Atracar();
+                        }
+                        if (item is NavioGuerra)
+                        {
+                            (item as NavioGuerra).Atracar();
+                        }
+                    }
+                    MessageBox.Show("Todos os Navios foram ATRACADOS.");
+                }
+                else if (AcoesCb.SelectedIndex == 2)
+                {
+                    foreach (Veiculo item in dadosVeiculo)
+                    {
+                        if (item is VeiculoGuerra)
+                        {
+                            (item as VeiculoGuerra).Atacar();
+                        }
+                    }
+                    MessageBox.Show("Todos Veiculos de Guerra estão ATACANDO.");
+                }
+                else if (AcoesCb.SelectedIndex == 3)
+                {
+                    foreach (Veiculo item in dadosVeiculo)
+                    {
+                        if (item is Moto)
+                        {
+                            (item as Moto).Empinar();
+                        }
+                    }
+                    MessageBox.Show("Todas Motos estão EMPINANDO.");
+                }
+                else
+                    MessageBox.Show("Opção não selecionada.");
+                DAO.GravarArquivo(this);
+                ReList();
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
 
         private void btnGerarPedagio_Click(object sender, EventArgs e)
@@ -1043,146 +1125,5 @@ namespace GerenciadorVeiculos
             tbTipoVeiculoPedagio.Enabled = false;
         }
 
-        //public void CarregadorDeLayout()
-        //{
-        //    Veiculo veiculoAux = null;
-
-        //    foreach (var identificacao in dadosVeiculo)
-        //    {
-        //        if (cbConsultarVeiculos.Text == identificacao.Identificacao)
-        //        {
-        //            veiculoAux = identificacao;
-        //            break;
-        //        }
-        //    }
-
-        //    if (veiculoAux is Carro)
-        //    {
-        //        btnDesempinar.Enabled = false;
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = true;
-        //        btnLigarLimpador.Enabled = true;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Carro";
-        //    }
-        //    else if (veiculoAux is Caminhao)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = true;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = true;
-        //        btnLigarLimpador.Enabled = true;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Caminhão";
-        //        btnDesempinar.Enabled = false;
-        //    }
-        //    else if (veiculoAux is Onibus)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = true;
-        //        btnLigarLimpador.Enabled = true;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Ônibus";
-        //        btnDesempinar.Enabled = false;
-        //    }
-        //    else if (veiculoAux is Moto)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = true;
-        //        btnDesligarLimpador.Enabled = false;
-        //        btnLigarLimpador.Enabled = false;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Moto";
-        //        btnDesempinar.Enabled = true;
-        //    }
-        //    else if (veiculoAux is Aviao)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = true;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = true;
-        //        btnLigarLimpador.Enabled = true;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Avião";
-        //        btnDesempinar.Enabled = false;
-        //    }
-        //    else if (veiculoAux is AviaoDeGuerra)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = true;
-        //        btnEjetar.Enabled = true;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = true;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = false;
-        //        btnLigarLimpador.Enabled = false;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Avião de Guerra";
-        //        btnDesempinar.Enabled = false;
-        //    }
-        //    else if (veiculoAux is Trem)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = true;
-        //        btnLigarLimpador.Enabled = true;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Trem";
-        //        btnDesempinar.Enabled = false;
-        //    }
-        //    else if (veiculoAux is Navio)
-        //    {
-        //        btnAtracar.Enabled = true;
-        //        btnAtacar.Enabled = false;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = false;
-        //        btnLigarLimpador.Enabled = false;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Navio";
-        //        btnDesempinar.Enabled = false;
-        //    }
-        //    else if (veiculoAux is NavioDeGuerra)
-        //    {
-        //        btnAtracar.Enabled = false;
-        //        btnAtacar.Enabled = true;
-        //        btnEjetar.Enabled = false;
-        //        pCaminhao.Enabled = false;
-        //        pAviao.Enabled = false;
-        //        btnEmpinar.Enabled = false;
-        //        btnDesligarLimpador.Enabled = false;
-        //        btnLigarLimpador.Enabled = false;
-        //        tbTipoVeiculoAcoes.Clear();
-        //        tbTipoVeiculoAcoes.Text = "Navio de Guerra";
-        //        btnDesempinar.Enabled = false;
-        //    }
-
-        //}
     }
 }
