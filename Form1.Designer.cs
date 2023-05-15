@@ -29,65 +29,67 @@
         private void InitializeComponent()
         {
             this.PanelCadastro = new System.Windows.Forms.Panel();
-            this.veiculocb = new System.Windows.Forms.ComboBox();
-            this.Idtxt = new System.Windows.Forms.TextBox();
-            this.Velocidadetxt = new System.Windows.Forms.TextBox();
-            this.PassageirosTxt = new System.Windows.Forms.TextBox();
-            this.EixosTxt = new System.Windows.Forms.TextBox();
-            this.MarcasCb = new System.Windows.Forms.ComboBox();
-            this.ModeloCb = new System.Windows.Forms.ComboBox();
-            this.LimpadorCb = new System.Windows.Forms.ComboBox();
-            this.VagoesCb = new System.Windows.Forms.TextBox();
-            this.LeitoCb = new System.Windows.Forms.ComboBox();
-            this.Capacidadetxt = new System.Windows.Forms.TextBox();
-            this.Cargatxt = new System.Windows.Forms.TextBox();
-            this.Veiculolb = new System.Windows.Forms.Label();
-            this.Idlbl = new System.Windows.Forms.Label();
-            this.VelocidadeLbl = new System.Windows.Forms.Label();
-            this.Passageiroslbl = new System.Windows.Forms.Label();
-            this.Eixoslbl = new System.Windows.Forms.Label();
-            this.MarcasLbl = new System.Windows.Forms.Label();
-            this.Modelolbl = new System.Windows.Forms.Label();
-            this.Limpadorlbl = new System.Windows.Forms.Label();
-            this.Vagoeslbl = new System.Windows.Forms.Label();
-            this.Leitolbl = new System.Windows.Forms.Label();
-            this.Capacidadelbl = new System.Windows.Forms.Label();
-            this.Cargalbl = new System.Windows.Forms.Label();
+            this.Cadastrarbtn = new System.Windows.Forms.Button();
+            this.ListarTodosbtn = new System.Windows.Forms.Button();
+            this.ListarTxt = new System.Windows.Forms.TextBox();
             this.Portaslbl = new System.Windows.Forms.Label();
             this.PortasTxt = new System.Windows.Forms.TextBox();
-            this.ListarTxt = new System.Windows.Forms.TextBox();
-            this.ListarTodosbtn = new System.Windows.Forms.Button();
-            this.Cadastrarbtn = new System.Windows.Forms.Button();
+            this.Cargalbl = new System.Windows.Forms.Label();
+            this.Capacidadelbl = new System.Windows.Forms.Label();
+            this.Leitolbl = new System.Windows.Forms.Label();
+            this.Vagoeslbl = new System.Windows.Forms.Label();
+            this.Limpadorlbl = new System.Windows.Forms.Label();
+            this.Modelolbl = new System.Windows.Forms.Label();
+            this.MarcasLbl = new System.Windows.Forms.Label();
+            this.Eixoslbl = new System.Windows.Forms.Label();
+            this.Passageiroslbl = new System.Windows.Forms.Label();
+            this.VelocidadeLbl = new System.Windows.Forms.Label();
+            this.Idlbl = new System.Windows.Forms.Label();
+            this.Veiculolb = new System.Windows.Forms.Label();
+            this.Cargatxt = new System.Windows.Forms.TextBox();
+            this.Capacidadetxt = new System.Windows.Forms.TextBox();
+            this.LeitoCb = new System.Windows.Forms.ComboBox();
+            this.VagoesCb = new System.Windows.Forms.TextBox();
+            this.LimpadorCb = new System.Windows.Forms.ComboBox();
+            this.ModeloCb = new System.Windows.Forms.ComboBox();
+            this.MarcasCb = new System.Windows.Forms.ComboBox();
+            this.EixosTxt = new System.Windows.Forms.TextBox();
+            this.PassageirosTxt = new System.Windows.Forms.TextBox();
+            this.Velocidadetxt = new System.Windows.Forms.TextBox();
+            this.Idtxt = new System.Windows.Forms.TextBox();
+            this.veiculocb = new System.Windows.Forms.ComboBox();
             this.PanelAcoes = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btnOk = new System.Windows.Forms.Button();
-            this.pOpcaoAcoes = new System.Windows.Forms.Panel();
-            this.rbAcoesGerais = new System.Windows.Forms.RadioButton();
-            this.rbAcoesEspecificas = new System.Windows.Forms.RadioButton();
-            this.btnAtracar = new System.Windows.Forms.Button();
-            this.btnAtacar = new System.Windows.Forms.Button();
-            this.btnEjetar = new System.Windows.Forms.Button();
-            this.btnArremeter = new System.Windows.Forms.Button();
-            this.btnPousar = new System.Windows.Forms.Button();
-            this.btnDecolar = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.cbConsultarVeiculos = new System.Windows.Forms.ComboBox();
+            this.AcoesTxt = new System.Windows.Forms.TextBox();
+            this.pCaminhao = new System.Windows.Forms.Panel();
+            this.tbCarregarCaminhao = new System.Windows.Forms.TextBox();
+            this.btnCarregar = new System.Windows.Forms.Button();
+            this.btnDescarregar = new System.Windows.Forms.Button();
             this.btnLigarLimpador = new System.Windows.Forms.Button();
             this.btnDesempinar = new System.Windows.Forms.Button();
             this.btnEmpinar = new System.Windows.Forms.Button();
             this.btnDesacelerar = new System.Windows.Forms.Button();
             this.btnAcelerar = new System.Windows.Forms.Button();
             this.btnDesligarLimpador = new System.Windows.Forms.Button();
-            this.tbTipoVeiculoAcoes = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.cbConsultarVeiculos = new System.Windows.Forms.ComboBox();
-            this.pCaminhao = new System.Windows.Forms.Panel();
-            this.tbCarregarCaminhao = new System.Windows.Forms.TextBox();
-            this.btnCarregar = new System.Windows.Forms.Button();
-            this.btnDescarregar = new System.Windows.Forms.Button();
+            this.btnArremeter = new System.Windows.Forms.Button();
+            this.btnPousar = new System.Windows.Forms.Button();
+            this.btnDecolar = new System.Windows.Forms.Button();
+            this.btnAtracar = new System.Windows.Forms.Button();
+            this.btnAtacar = new System.Windows.Forms.Button();
+            this.btnEjetar = new System.Windows.Forms.Button();
+            this.pOpcaoAcoes = new System.Windows.Forms.Panel();
+            this.rbAcoesGerais = new System.Windows.Forms.RadioButton();
+            this.rbAcoesEspecificas = new System.Windows.Forms.RadioButton();
+            this.btnOk = new System.Windows.Forms.Button();
+            this.AcoesCb = new System.Windows.Forms.ComboBox();
             this.PanelPedagio = new System.Windows.Forms.Panel();
-            this.pOpcaoPedagio = new System.Windows.Forms.Panel();
-            this.rbPagarTodoPedagio = new System.Windows.Forms.RadioButton();
-            this.rbPagarPedagio = new System.Windows.Forms.RadioButton();
-            this.rbGerarPedagio = new System.Windows.Forms.RadioButton();
+            this.txtListarPedagio = new System.Windows.Forms.TextBox();
+            this.btnListarPedagio = new System.Windows.Forms.Button();
+            this.pPagamento = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.tbPagarPedagio = new System.Windows.Forms.TextBox();
+            this.btnPagarPedagio = new System.Windows.Forms.Button();
             this.pDadosPedagio = new System.Windows.Forms.Panel();
             this.cbIdentificacaoPedagio = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -95,21 +97,18 @@
             this.btnGerarPedagio = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.cbLocalizacaoPedagio = new System.Windows.Forms.ComboBox();
-            this.pPagamento = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.tbPagarPedagio = new System.Windows.Forms.TextBox();
-            this.btnPagarPedagio = new System.Windows.Forms.Button();
-            this.btnListarPedagio = new System.Windows.Forms.Button();
-            this.txtListarPedagio = new System.Windows.Forms.TextBox();
-            this.AcoesTxt = new System.Windows.Forms.TextBox();
+            this.pOpcaoPedagio = new System.Windows.Forms.Panel();
+            this.rbPagarTodoPedagio = new System.Windows.Forms.RadioButton();
+            this.rbPagarPedagio = new System.Windows.Forms.RadioButton();
+            this.rbGerarPedagio = new System.Windows.Forms.RadioButton();
             this.PanelCadastro.SuspendLayout();
             this.PanelAcoes.SuspendLayout();
-            this.pOpcaoAcoes.SuspendLayout();
             this.pCaminhao.SuspendLayout();
+            this.pOpcaoAcoes.SuspendLayout();
             this.PanelPedagio.SuspendLayout();
-            this.pOpcaoPedagio.SuspendLayout();
-            this.pDadosPedagio.SuspendLayout();
             this.pPagamento.SuspendLayout();
+            this.pDadosPedagio.SuspendLayout();
+            this.pOpcaoPedagio.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelCadastro
@@ -148,202 +147,33 @@
             this.PanelCadastro.Size = new System.Drawing.Size(917, 423);
             this.PanelCadastro.TabIndex = 0;
             // 
-            // veiculocb
+            // Cadastrarbtn
             // 
-            this.veiculocb.FormattingEnabled = true;
-            this.veiculocb.Location = new System.Drawing.Point(118, 27);
-            this.veiculocb.Name = "veiculocb";
-            this.veiculocb.Size = new System.Drawing.Size(121, 21);
-            this.veiculocb.TabIndex = 0;
+            this.Cadastrarbtn.Location = new System.Drawing.Point(28, 222);
+            this.Cadastrarbtn.Name = "Cadastrarbtn";
+            this.Cadastrarbtn.Size = new System.Drawing.Size(167, 35);
+            this.Cadastrarbtn.TabIndex = 28;
+            this.Cadastrarbtn.Text = "Cadastrar";
+            this.Cadastrarbtn.UseVisualStyleBackColor = true;
+            this.Cadastrarbtn.Click += new System.EventHandler(this.Cadastrarbtn_Click);
             // 
-            // Idtxt
+            // ListarTodosbtn
             // 
-            this.Idtxt.Location = new System.Drawing.Point(118, 69);
-            this.Idtxt.Name = "Idtxt";
-            this.Idtxt.Size = new System.Drawing.Size(121, 20);
-            this.Idtxt.TabIndex = 1;
+            this.ListarTodosbtn.Location = new System.Drawing.Point(689, 222);
+            this.ListarTodosbtn.Name = "ListarTodosbtn";
+            this.ListarTodosbtn.Size = new System.Drawing.Size(167, 35);
+            this.ListarTodosbtn.TabIndex = 27;
+            this.ListarTodosbtn.Text = "Listar Todos";
+            this.ListarTodosbtn.UseVisualStyleBackColor = true;
+            this.ListarTodosbtn.Click += new System.EventHandler(this.ListarTodosbtn_Click);
             // 
-            // Velocidadetxt
+            // ListarTxt
             // 
-            this.Velocidadetxt.Location = new System.Drawing.Point(118, 95);
-            this.Velocidadetxt.Name = "Velocidadetxt";
-            this.Velocidadetxt.Size = new System.Drawing.Size(121, 20);
-            this.Velocidadetxt.TabIndex = 2;
-            // 
-            // PassageirosTxt
-            // 
-            this.PassageirosTxt.Location = new System.Drawing.Point(118, 121);
-            this.PassageirosTxt.Name = "PassageirosTxt";
-            this.PassageirosTxt.Size = new System.Drawing.Size(121, 20);
-            this.PassageirosTxt.TabIndex = 3;
-            // 
-            // EixosTxt
-            // 
-            this.EixosTxt.Location = new System.Drawing.Point(350, 28);
-            this.EixosTxt.Name = "EixosTxt";
-            this.EixosTxt.Size = new System.Drawing.Size(121, 20);
-            this.EixosTxt.TabIndex = 4;
-            // 
-            // MarcasCb
-            // 
-            this.MarcasCb.FormattingEnabled = true;
-            this.MarcasCb.Location = new System.Drawing.Point(350, 54);
-            this.MarcasCb.Name = "MarcasCb";
-            this.MarcasCb.Size = new System.Drawing.Size(121, 21);
-            this.MarcasCb.TabIndex = 5;
-            // 
-            // ModeloCb
-            // 
-            this.ModeloCb.FormattingEnabled = true;
-            this.ModeloCb.Location = new System.Drawing.Point(350, 81);
-            this.ModeloCb.Name = "ModeloCb";
-            this.ModeloCb.Size = new System.Drawing.Size(121, 21);
-            this.ModeloCb.TabIndex = 6;
-            // 
-            // LimpadorCb
-            // 
-            this.LimpadorCb.FormattingEnabled = true;
-            this.LimpadorCb.Location = new System.Drawing.Point(350, 115);
-            this.LimpadorCb.Name = "LimpadorCb";
-            this.LimpadorCb.Size = new System.Drawing.Size(121, 21);
-            this.LimpadorCb.TabIndex = 7;
-            // 
-            // VagoesCb
-            // 
-            this.VagoesCb.Location = new System.Drawing.Point(350, 142);
-            this.VagoesCb.Name = "VagoesCb";
-            this.VagoesCb.Size = new System.Drawing.Size(121, 20);
-            this.VagoesCb.TabIndex = 8;
-            // 
-            // LeitoCb
-            // 
-            this.LeitoCb.FormattingEnabled = true;
-            this.LeitoCb.Location = new System.Drawing.Point(582, 28);
-            this.LeitoCb.Name = "LeitoCb";
-            this.LeitoCb.Size = new System.Drawing.Size(121, 21);
-            this.LeitoCb.TabIndex = 9;
-            // 
-            // Capacidadetxt
-            // 
-            this.Capacidadetxt.Location = new System.Drawing.Point(582, 55);
-            this.Capacidadetxt.Name = "Capacidadetxt";
-            this.Capacidadetxt.Size = new System.Drawing.Size(121, 20);
-            this.Capacidadetxt.TabIndex = 10;
-            // 
-            // Cargatxt
-            // 
-            this.Cargatxt.Location = new System.Drawing.Point(582, 81);
-            this.Cargatxt.Name = "Cargatxt";
-            this.Cargatxt.Size = new System.Drawing.Size(121, 20);
-            this.Cargatxt.TabIndex = 11;
-            // 
-            // Veiculolb
-            // 
-            this.Veiculolb.AutoSize = true;
-            this.Veiculolb.Location = new System.Drawing.Point(63, 31);
-            this.Veiculolb.Name = "Veiculolb";
-            this.Veiculolb.Size = new System.Drawing.Size(49, 13);
-            this.Veiculolb.TabIndex = 12;
-            this.Veiculolb.Text = "Veículos";
-            // 
-            // Idlbl
-            // 
-            this.Idlbl.AutoSize = true;
-            this.Idlbl.Location = new System.Drawing.Point(44, 72);
-            this.Idlbl.Name = "Idlbl";
-            this.Idlbl.Size = new System.Drawing.Size(68, 13);
-            this.Idlbl.TabIndex = 13;
-            this.Idlbl.Text = "Identificação";
-            // 
-            // VelocidadeLbl
-            // 
-            this.VelocidadeLbl.AutoSize = true;
-            this.VelocidadeLbl.Location = new System.Drawing.Point(52, 98);
-            this.VelocidadeLbl.Name = "VelocidadeLbl";
-            this.VelocidadeLbl.Size = new System.Drawing.Size(60, 13);
-            this.VelocidadeLbl.TabIndex = 14;
-            this.VelocidadeLbl.Text = "Velocidade";
-            // 
-            // Passageiroslbl
-            // 
-            this.Passageiroslbl.AutoSize = true;
-            this.Passageiroslbl.Location = new System.Drawing.Point(48, 124);
-            this.Passageiroslbl.Name = "Passageiroslbl";
-            this.Passageiroslbl.Size = new System.Drawing.Size(64, 13);
-            this.Passageiroslbl.TabIndex = 15;
-            this.Passageiroslbl.Text = "Passageiros";
-            // 
-            // Eixoslbl
-            // 
-            this.Eixoslbl.AutoSize = true;
-            this.Eixoslbl.Location = new System.Drawing.Point(297, 31);
-            this.Eixoslbl.Name = "Eixoslbl";
-            this.Eixoslbl.Size = new System.Drawing.Size(32, 13);
-            this.Eixoslbl.TabIndex = 16;
-            this.Eixoslbl.Text = "Eixos";
-            // 
-            // MarcasLbl
-            // 
-            this.MarcasLbl.AutoSize = true;
-            this.MarcasLbl.Location = new System.Drawing.Point(297, 58);
-            this.MarcasLbl.Name = "MarcasLbl";
-            this.MarcasLbl.Size = new System.Drawing.Size(42, 13);
-            this.MarcasLbl.TabIndex = 17;
-            this.MarcasLbl.Text = "Marcas";
-            // 
-            // Modelolbl
-            // 
-            this.Modelolbl.AutoSize = true;
-            this.Modelolbl.Location = new System.Drawing.Point(297, 88);
-            this.Modelolbl.Name = "Modelolbl";
-            this.Modelolbl.Size = new System.Drawing.Size(42, 13);
-            this.Modelolbl.TabIndex = 18;
-            this.Modelolbl.Text = "Modelo";
-            // 
-            // Limpadorlbl
-            // 
-            this.Limpadorlbl.AutoSize = true;
-            this.Limpadorlbl.Location = new System.Drawing.Point(297, 118);
-            this.Limpadorlbl.Name = "Limpadorlbl";
-            this.Limpadorlbl.Size = new System.Drawing.Size(50, 13);
-            this.Limpadorlbl.TabIndex = 19;
-            this.Limpadorlbl.Text = "Limpador";
-            // 
-            // Vagoeslbl
-            // 
-            this.Vagoeslbl.AutoSize = true;
-            this.Vagoeslbl.Location = new System.Drawing.Point(297, 145);
-            this.Vagoeslbl.Name = "Vagoeslbl";
-            this.Vagoeslbl.Size = new System.Drawing.Size(43, 13);
-            this.Vagoeslbl.TabIndex = 20;
-            this.Vagoeslbl.Text = "Vagões";
-            // 
-            // Leitolbl
-            // 
-            this.Leitolbl.AutoSize = true;
-            this.Leitolbl.Location = new System.Drawing.Point(535, 31);
-            this.Leitolbl.Name = "Leitolbl";
-            this.Leitolbl.Size = new System.Drawing.Size(30, 13);
-            this.Leitolbl.TabIndex = 21;
-            this.Leitolbl.Text = "Leito";
-            // 
-            // Capacidadelbl
-            // 
-            this.Capacidadelbl.AutoSize = true;
-            this.Capacidadelbl.Location = new System.Drawing.Point(515, 58);
-            this.Capacidadelbl.Name = "Capacidadelbl";
-            this.Capacidadelbl.Size = new System.Drawing.Size(61, 13);
-            this.Capacidadelbl.TabIndex = 22;
-            this.Capacidadelbl.Text = "Carga limite";
-            // 
-            // Cargalbl
-            // 
-            this.Cargalbl.AutoSize = true;
-            this.Cargalbl.Location = new System.Drawing.Point(535, 84);
-            this.Cargalbl.Name = "Cargalbl";
-            this.Cargalbl.Size = new System.Drawing.Size(35, 13);
-            this.Cargalbl.TabIndex = 23;
-            this.Cargalbl.Text = "Carga";
+            this.ListarTxt.Location = new System.Drawing.Point(12, 263);
+            this.ListarTxt.Multiline = true;
+            this.ListarTxt.Name = "ListarTxt";
+            this.ListarTxt.Size = new System.Drawing.Size(878, 145);
+            this.ListarTxt.TabIndex = 26;
             // 
             // Portaslbl
             // 
@@ -361,39 +191,224 @@
             this.PortasTxt.Size = new System.Drawing.Size(121, 20);
             this.PortasTxt.TabIndex = 24;
             // 
-            // ListarTxt
+            // Cargalbl
             // 
-            this.ListarTxt.Location = new System.Drawing.Point(12, 263);
-            this.ListarTxt.Multiline = true;
-            this.ListarTxt.Name = "ListarTxt";
-            this.ListarTxt.Size = new System.Drawing.Size(878, 145);
-            this.ListarTxt.TabIndex = 26;
+            this.Cargalbl.AutoSize = true;
+            this.Cargalbl.Location = new System.Drawing.Point(535, 84);
+            this.Cargalbl.Name = "Cargalbl";
+            this.Cargalbl.Size = new System.Drawing.Size(35, 13);
+            this.Cargalbl.TabIndex = 23;
+            this.Cargalbl.Text = "Carga";
             // 
-            // ListarTodosbtn
+            // Capacidadelbl
             // 
-            this.ListarTodosbtn.Location = new System.Drawing.Point(689, 222);
-            this.ListarTodosbtn.Name = "ListarTodosbtn";
-            this.ListarTodosbtn.Size = new System.Drawing.Size(167, 35);
-            this.ListarTodosbtn.TabIndex = 27;
-            this.ListarTodosbtn.Text = "Listar Todos";
-            this.ListarTodosbtn.UseVisualStyleBackColor = true;
+            this.Capacidadelbl.AutoSize = true;
+            this.Capacidadelbl.Location = new System.Drawing.Point(515, 58);
+            this.Capacidadelbl.Name = "Capacidadelbl";
+            this.Capacidadelbl.Size = new System.Drawing.Size(61, 13);
+            this.Capacidadelbl.TabIndex = 22;
+            this.Capacidadelbl.Text = "Carga limite";
             // 
-            // Cadastrarbtn
+            // Leitolbl
             // 
-            this.Cadastrarbtn.Location = new System.Drawing.Point(28, 222);
-            this.Cadastrarbtn.Name = "Cadastrarbtn";
-            this.Cadastrarbtn.Size = new System.Drawing.Size(167, 35);
-            this.Cadastrarbtn.TabIndex = 28;
-            this.Cadastrarbtn.Text = "Cadastrar";
-            this.Cadastrarbtn.UseVisualStyleBackColor = true;
+            this.Leitolbl.AutoSize = true;
+            this.Leitolbl.Location = new System.Drawing.Point(535, 31);
+            this.Leitolbl.Name = "Leitolbl";
+            this.Leitolbl.Size = new System.Drawing.Size(30, 13);
+            this.Leitolbl.TabIndex = 21;
+            this.Leitolbl.Text = "Leito";
+            // 
+            // Vagoeslbl
+            // 
+            this.Vagoeslbl.AutoSize = true;
+            this.Vagoeslbl.Location = new System.Drawing.Point(297, 145);
+            this.Vagoeslbl.Name = "Vagoeslbl";
+            this.Vagoeslbl.Size = new System.Drawing.Size(43, 13);
+            this.Vagoeslbl.TabIndex = 20;
+            this.Vagoeslbl.Text = "Vagões";
+            // 
+            // Limpadorlbl
+            // 
+            this.Limpadorlbl.AutoSize = true;
+            this.Limpadorlbl.Location = new System.Drawing.Point(297, 118);
+            this.Limpadorlbl.Name = "Limpadorlbl";
+            this.Limpadorlbl.Size = new System.Drawing.Size(50, 13);
+            this.Limpadorlbl.TabIndex = 19;
+            this.Limpadorlbl.Text = "Limpador";
+            // 
+            // Modelolbl
+            // 
+            this.Modelolbl.AutoSize = true;
+            this.Modelolbl.Location = new System.Drawing.Point(297, 88);
+            this.Modelolbl.Name = "Modelolbl";
+            this.Modelolbl.Size = new System.Drawing.Size(42, 13);
+            this.Modelolbl.TabIndex = 18;
+            this.Modelolbl.Text = "Modelo";
+            // 
+            // MarcasLbl
+            // 
+            this.MarcasLbl.AutoSize = true;
+            this.MarcasLbl.Location = new System.Drawing.Point(297, 58);
+            this.MarcasLbl.Name = "MarcasLbl";
+            this.MarcasLbl.Size = new System.Drawing.Size(42, 13);
+            this.MarcasLbl.TabIndex = 17;
+            this.MarcasLbl.Text = "Marcas";
+            // 
+            // Eixoslbl
+            // 
+            this.Eixoslbl.AutoSize = true;
+            this.Eixoslbl.Location = new System.Drawing.Point(297, 31);
+            this.Eixoslbl.Name = "Eixoslbl";
+            this.Eixoslbl.Size = new System.Drawing.Size(32, 13);
+            this.Eixoslbl.TabIndex = 16;
+            this.Eixoslbl.Text = "Eixos";
+            // 
+            // Passageiroslbl
+            // 
+            this.Passageiroslbl.AutoSize = true;
+            this.Passageiroslbl.Location = new System.Drawing.Point(48, 124);
+            this.Passageiroslbl.Name = "Passageiroslbl";
+            this.Passageiroslbl.Size = new System.Drawing.Size(64, 13);
+            this.Passageiroslbl.TabIndex = 15;
+            this.Passageiroslbl.Text = "Passageiros";
+            // 
+            // VelocidadeLbl
+            // 
+            this.VelocidadeLbl.AutoSize = true;
+            this.VelocidadeLbl.Location = new System.Drawing.Point(52, 98);
+            this.VelocidadeLbl.Name = "VelocidadeLbl";
+            this.VelocidadeLbl.Size = new System.Drawing.Size(60, 13);
+            this.VelocidadeLbl.TabIndex = 14;
+            this.VelocidadeLbl.Text = "Velocidade";
+            // 
+            // Idlbl
+            // 
+            this.Idlbl.AutoSize = true;
+            this.Idlbl.Location = new System.Drawing.Point(44, 72);
+            this.Idlbl.Name = "Idlbl";
+            this.Idlbl.Size = new System.Drawing.Size(68, 13);
+            this.Idlbl.TabIndex = 13;
+            this.Idlbl.Text = "Identificação";
+            // 
+            // Veiculolb
+            // 
+            this.Veiculolb.AutoSize = true;
+            this.Veiculolb.Location = new System.Drawing.Point(63, 31);
+            this.Veiculolb.Name = "Veiculolb";
+            this.Veiculolb.Size = new System.Drawing.Size(49, 13);
+            this.Veiculolb.TabIndex = 12;
+            this.Veiculolb.Text = "Veículos";
+            // 
+            // Cargatxt
+            // 
+            this.Cargatxt.Location = new System.Drawing.Point(582, 81);
+            this.Cargatxt.Name = "Cargatxt";
+            this.Cargatxt.Size = new System.Drawing.Size(121, 20);
+            this.Cargatxt.TabIndex = 11;
+            // 
+            // Capacidadetxt
+            // 
+            this.Capacidadetxt.Location = new System.Drawing.Point(582, 55);
+            this.Capacidadetxt.Name = "Capacidadetxt";
+            this.Capacidadetxt.Size = new System.Drawing.Size(121, 20);
+            this.Capacidadetxt.TabIndex = 10;
+            // 
+            // LeitoCb
+            // 
+            this.LeitoCb.FormattingEnabled = true;
+            this.LeitoCb.Location = new System.Drawing.Point(582, 28);
+            this.LeitoCb.Name = "LeitoCb";
+            this.LeitoCb.Size = new System.Drawing.Size(121, 21);
+            this.LeitoCb.TabIndex = 9;
+            // 
+            // VagoesCb
+            // 
+            this.VagoesCb.Location = new System.Drawing.Point(350, 142);
+            this.VagoesCb.Name = "VagoesCb";
+            this.VagoesCb.Size = new System.Drawing.Size(121, 20);
+            this.VagoesCb.TabIndex = 8;
+            // 
+            // LimpadorCb
+            // 
+            this.LimpadorCb.FormattingEnabled = true;
+            this.LimpadorCb.Items.AddRange(new object[] {
+            "Ligado",
+            "Desligado"});
+            this.LimpadorCb.Location = new System.Drawing.Point(350, 115);
+            this.LimpadorCb.Name = "LimpadorCb";
+            this.LimpadorCb.Size = new System.Drawing.Size(121, 21);
+            this.LimpadorCb.TabIndex = 7;
+            // 
+            // ModeloCb
+            // 
+            this.ModeloCb.FormattingEnabled = true;
+            this.ModeloCb.Location = new System.Drawing.Point(350, 81);
+            this.ModeloCb.Name = "ModeloCb";
+            this.ModeloCb.Size = new System.Drawing.Size(121, 21);
+            this.ModeloCb.TabIndex = 6;
+            // 
+            // MarcasCb
+            // 
+            this.MarcasCb.FormattingEnabled = true;
+            this.MarcasCb.Location = new System.Drawing.Point(350, 54);
+            this.MarcasCb.Name = "MarcasCb";
+            this.MarcasCb.Size = new System.Drawing.Size(121, 21);
+            this.MarcasCb.TabIndex = 5;
+            this.MarcasCb.SelectedIndexChanged += new System.EventHandler(this.Marcas_SelectIndexChanged);
+            // 
+            // EixosTxt
+            // 
+            this.EixosTxt.Location = new System.Drawing.Point(350, 28);
+            this.EixosTxt.Name = "EixosTxt";
+            this.EixosTxt.Size = new System.Drawing.Size(121, 20);
+            this.EixosTxt.TabIndex = 4;
+            // 
+            // PassageirosTxt
+            // 
+            this.PassageirosTxt.Location = new System.Drawing.Point(118, 121);
+            this.PassageirosTxt.Name = "PassageirosTxt";
+            this.PassageirosTxt.Size = new System.Drawing.Size(121, 20);
+            this.PassageirosTxt.TabIndex = 3;
+            // 
+            // Velocidadetxt
+            // 
+            this.Velocidadetxt.Location = new System.Drawing.Point(118, 95);
+            this.Velocidadetxt.Name = "Velocidadetxt";
+            this.Velocidadetxt.Size = new System.Drawing.Size(121, 20);
+            this.Velocidadetxt.TabIndex = 2;
+            // 
+            // Idtxt
+            // 
+            this.Idtxt.Location = new System.Drawing.Point(118, 69);
+            this.Idtxt.Name = "Idtxt";
+            this.Idtxt.Size = new System.Drawing.Size(121, 20);
+            this.Idtxt.TabIndex = 1;
+            // 
+            // veiculocb
+            // 
+            this.veiculocb.FormattingEnabled = true;
+            this.veiculocb.Items.AddRange(new object[] {
+            "Carro",
+            "Caminhão",
+            "Ônibus",
+            "Moto",
+            "Avião",
+            "Avião de Guerras",
+            "Trem",
+            "Navio",
+            "Navio de Guerra"});
+            this.veiculocb.Location = new System.Drawing.Point(118, 27);
+            this.veiculocb.Name = "veiculocb";
+            this.veiculocb.Size = new System.Drawing.Size(121, 21);
+            this.veiculocb.TabIndex = 0;
+            this.veiculocb.SelectedIndexChanged += new System.EventHandler(this.Veiculos_SelectionChanged);
             // 
             // PanelAcoes
             // 
-            this.PanelAcoes.Controls.Add(this.AcoesTxt);
-            this.PanelAcoes.Controls.Add(this.pCaminhao);
-            this.PanelAcoes.Controls.Add(this.tbTipoVeiculoAcoes);
             this.PanelAcoes.Controls.Add(this.label17);
             this.PanelAcoes.Controls.Add(this.cbConsultarVeiculos);
+            this.PanelAcoes.Controls.Add(this.AcoesTxt);
+            this.PanelAcoes.Controls.Add(this.pCaminhao);
             this.PanelAcoes.Controls.Add(this.btnLigarLimpador);
             this.PanelAcoes.Controls.Add(this.btnDesempinar);
             this.PanelAcoes.Controls.Add(this.btnEmpinar);
@@ -408,29 +423,212 @@
             this.PanelAcoes.Controls.Add(this.btnEjetar);
             this.PanelAcoes.Controls.Add(this.pOpcaoAcoes);
             this.PanelAcoes.Controls.Add(this.btnOk);
-            this.PanelAcoes.Controls.Add(this.comboBox1);
+            this.PanelAcoes.Controls.Add(this.AcoesCb);
             this.PanelAcoes.Location = new System.Drawing.Point(941, 12);
             this.PanelAcoes.Name = "PanelAcoes";
             this.PanelAcoes.Size = new System.Drawing.Size(548, 557);
             this.PanelAcoes.TabIndex = 1;
             // 
-            // comboBox1
+            // label17
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(30, 23);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 6;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(419, 156);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(96, 13);
+            this.label17.TabIndex = 43;
+            this.label17.Text = "Consultar Veículos";
             // 
-            // btnOk
+            // cbConsultarVeiculos
             // 
-            this.btnOk.Location = new System.Drawing.Point(156, 19);
-            this.btnOk.Margin = new System.Windows.Forms.Padding(2);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(109, 27);
-            this.btnOk.TabIndex = 21;
-            this.btnOk.Text = "OK";
-            this.btnOk.UseVisualStyleBackColor = true;
+            this.cbConsultarVeiculos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbConsultarVeiculos.FormattingEnabled = true;
+            this.cbConsultarVeiculos.Location = new System.Drawing.Point(421, 172);
+            this.cbConsultarVeiculos.Margin = new System.Windows.Forms.Padding(2);
+            this.cbConsultarVeiculos.Name = "cbConsultarVeiculos";
+            this.cbConsultarVeiculos.Size = new System.Drawing.Size(110, 21);
+            this.cbConsultarVeiculos.TabIndex = 42;
+            // 
+            // AcoesTxt
+            // 
+            this.AcoesTxt.Location = new System.Drawing.Point(30, 364);
+            this.AcoesTxt.Multiline = true;
+            this.AcoesTxt.Name = "AcoesTxt";
+            this.AcoesTxt.Size = new System.Drawing.Size(502, 145);
+            this.AcoesTxt.TabIndex = 41;
+            // 
+            // pCaminhao
+            // 
+            this.pCaminhao.Controls.Add(this.tbCarregarCaminhao);
+            this.pCaminhao.Controls.Add(this.btnCarregar);
+            this.pCaminhao.Controls.Add(this.btnDescarregar);
+            this.pCaminhao.Location = new System.Drawing.Point(418, 21);
+            this.pCaminhao.Margin = new System.Windows.Forms.Padding(2);
+            this.pCaminhao.Name = "pCaminhao";
+            this.pCaminhao.Size = new System.Drawing.Size(114, 90);
+            this.pCaminhao.TabIndex = 40;
+            // 
+            // tbCarregarCaminhao
+            // 
+            this.tbCarregarCaminhao.Location = new System.Drawing.Point(3, 6);
+            this.tbCarregarCaminhao.Margin = new System.Windows.Forms.Padding(2);
+            this.tbCarregarCaminhao.Name = "tbCarregarCaminhao";
+            this.tbCarregarCaminhao.Size = new System.Drawing.Size(110, 20);
+            this.tbCarregarCaminhao.TabIndex = 38;
+            // 
+            // btnCarregar
+            // 
+            this.btnCarregar.Location = new System.Drawing.Point(2, 26);
+            this.btnCarregar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCarregar.Name = "btnCarregar";
+            this.btnCarregar.Size = new System.Drawing.Size(109, 27);
+            this.btnCarregar.TabIndex = 10;
+            this.btnCarregar.Text = "Carregar";
+            this.btnCarregar.UseVisualStyleBackColor = true;
+            this.btnCarregar.Click += new System.EventHandler(this.btnCarregar_Click);
+            // 
+            // btnDescarregar
+            // 
+            this.btnDescarregar.Location = new System.Drawing.Point(2, 58);
+            this.btnDescarregar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDescarregar.Name = "btnDescarregar";
+            this.btnDescarregar.Size = new System.Drawing.Size(109, 27);
+            this.btnDescarregar.TabIndex = 11;
+            this.btnDescarregar.Text = "Descarregar";
+            this.btnDescarregar.UseVisualStyleBackColor = true;
+            this.btnDescarregar.Click += new System.EventHandler(this.btnDescarregar_Click);
+            // 
+            // btnLigarLimpador
+            // 
+            this.btnLigarLimpador.Location = new System.Drawing.Point(32, 287);
+            this.btnLigarLimpador.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLigarLimpador.Name = "btnLigarLimpador";
+            this.btnLigarLimpador.Size = new System.Drawing.Size(109, 27);
+            this.btnLigarLimpador.TabIndex = 32;
+            this.btnLigarLimpador.Text = "Ligar Limpador";
+            this.btnLigarLimpador.UseVisualStyleBackColor = true;
+            this.btnLigarLimpador.Click += new System.EventHandler(this.btnLigarLimpador_Click);
+            // 
+            // btnDesempinar
+            // 
+            this.btnDesempinar.Location = new System.Drawing.Point(275, 287);
+            this.btnDesempinar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDesempinar.Name = "btnDesempinar";
+            this.btnDesempinar.Size = new System.Drawing.Size(109, 27);
+            this.btnDesempinar.TabIndex = 36;
+            this.btnDesempinar.Text = "Desempinar";
+            this.btnDesempinar.UseVisualStyleBackColor = true;
+            this.btnDesempinar.Click += new System.EventHandler(this.btnDesempinar_Click);
+            // 
+            // btnEmpinar
+            // 
+            this.btnEmpinar.Location = new System.Drawing.Point(275, 259);
+            this.btnEmpinar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEmpinar.Name = "btnEmpinar";
+            this.btnEmpinar.Size = new System.Drawing.Size(109, 27);
+            this.btnEmpinar.TabIndex = 35;
+            this.btnEmpinar.Text = "Empinar";
+            this.btnEmpinar.UseVisualStyleBackColor = true;
+            this.btnEmpinar.Click += new System.EventHandler(this.btnEmpinar_Click);
+            // 
+            // btnDesacelerar
+            // 
+            this.btnDesacelerar.Location = new System.Drawing.Point(152, 287);
+            this.btnDesacelerar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDesacelerar.Name = "btnDesacelerar";
+            this.btnDesacelerar.Size = new System.Drawing.Size(109, 27);
+            this.btnDesacelerar.TabIndex = 34;
+            this.btnDesacelerar.Text = "Desacelerar";
+            this.btnDesacelerar.UseVisualStyleBackColor = true;
+            this.btnDesacelerar.Click += new System.EventHandler(this.btnDesacelerar_Click);
+            // 
+            // btnAcelerar
+            // 
+            this.btnAcelerar.Location = new System.Drawing.Point(152, 259);
+            this.btnAcelerar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAcelerar.Name = "btnAcelerar";
+            this.btnAcelerar.Size = new System.Drawing.Size(109, 27);
+            this.btnAcelerar.TabIndex = 33;
+            this.btnAcelerar.Text = "Acelerar";
+            this.btnAcelerar.UseVisualStyleBackColor = true;
+            this.btnAcelerar.Click += new System.EventHandler(this.btnAcelerar_Click);
+            // 
+            // btnDesligarLimpador
+            // 
+            this.btnDesligarLimpador.Location = new System.Drawing.Point(32, 259);
+            this.btnDesligarLimpador.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDesligarLimpador.Name = "btnDesligarLimpador";
+            this.btnDesligarLimpador.Size = new System.Drawing.Size(109, 27);
+            this.btnDesligarLimpador.TabIndex = 31;
+            this.btnDesligarLimpador.Text = "Desligar Limpador";
+            this.btnDesligarLimpador.UseVisualStyleBackColor = true;
+            this.btnDesligarLimpador.Click += new System.EventHandler(this.btnDesligarLimpador_Click);
+            // 
+            // btnArremeter
+            // 
+            this.btnArremeter.Location = new System.Drawing.Point(156, 166);
+            this.btnArremeter.Margin = new System.Windows.Forms.Padding(2);
+            this.btnArremeter.Name = "btnArremeter";
+            this.btnArremeter.Size = new System.Drawing.Size(109, 27);
+            this.btnArremeter.TabIndex = 29;
+            this.btnArremeter.Text = "Arremeter";
+            this.btnArremeter.UseVisualStyleBackColor = true;
+            this.btnArremeter.Click += new System.EventHandler(this.btnArremeter_Click);
+            // 
+            // btnPousar
+            // 
+            this.btnPousar.Location = new System.Drawing.Point(156, 198);
+            this.btnPousar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPousar.Name = "btnPousar";
+            this.btnPousar.Size = new System.Drawing.Size(109, 27);
+            this.btnPousar.TabIndex = 30;
+            this.btnPousar.Text = "Pousar";
+            this.btnPousar.UseVisualStyleBackColor = true;
+            this.btnPousar.Click += new System.EventHandler(this.btnPousar_Click);
+            // 
+            // btnDecolar
+            // 
+            this.btnDecolar.Location = new System.Drawing.Point(156, 135);
+            this.btnDecolar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDecolar.Name = "btnDecolar";
+            this.btnDecolar.Size = new System.Drawing.Size(109, 27);
+            this.btnDecolar.TabIndex = 28;
+            this.btnDecolar.Text = "Decolar";
+            this.btnDecolar.UseVisualStyleBackColor = true;
+            this.btnDecolar.Click += new System.EventHandler(this.btnDecolar_Click);
+            // 
+            // btnAtracar
+            // 
+            this.btnAtracar.Location = new System.Drawing.Point(30, 134);
+            this.btnAtracar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAtracar.Name = "btnAtracar";
+            this.btnAtracar.Size = new System.Drawing.Size(109, 27);
+            this.btnAtracar.TabIndex = 25;
+            this.btnAtracar.Text = "Atracar";
+            this.btnAtracar.UseVisualStyleBackColor = true;
+            this.btnAtracar.Click += new System.EventHandler(this.btnAtracar_Click);
+            // 
+            // btnAtacar
+            // 
+            this.btnAtacar.Location = new System.Drawing.Point(30, 166);
+            this.btnAtacar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAtacar.Name = "btnAtacar";
+            this.btnAtacar.Size = new System.Drawing.Size(109, 27);
+            this.btnAtacar.TabIndex = 26;
+            this.btnAtacar.Text = "Atacar";
+            this.btnAtacar.UseVisualStyleBackColor = true;
+            this.btnAtacar.Click += new System.EventHandler(this.btnAtacar_Click);
+            // 
+            // btnEjetar
+            // 
+            this.btnEjetar.Location = new System.Drawing.Point(30, 198);
+            this.btnEjetar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEjetar.Name = "btnEjetar";
+            this.btnEjetar.Size = new System.Drawing.Size(109, 27);
+            this.btnEjetar.TabIndex = 27;
+            this.btnEjetar.Text = "Ejetar";
+            this.btnEjetar.UseVisualStyleBackColor = true;
+            this.btnEjetar.Click += new System.EventHandler(this.btnEjetar_Click);
             // 
             // pOpcaoAcoes
             // 
@@ -466,193 +664,25 @@
             this.rbAcoesEspecificas.Text = "Ações Gerais";
             this.rbAcoesEspecificas.UseVisualStyleBackColor = true;
             // 
-            // btnAtracar
+            // btnOk
             // 
-            this.btnAtracar.Location = new System.Drawing.Point(30, 134);
-            this.btnAtracar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAtracar.Name = "btnAtracar";
-            this.btnAtracar.Size = new System.Drawing.Size(109, 27);
-            this.btnAtracar.TabIndex = 25;
-            this.btnAtracar.Text = "Atracar";
-            this.btnAtracar.UseVisualStyleBackColor = true;
+            this.btnOk.Location = new System.Drawing.Point(156, 19);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(2);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(109, 27);
+            this.btnOk.TabIndex = 21;
+            this.btnOk.Text = "OK";
+            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // btnAtacar
+            // AcoesCb
             // 
-            this.btnAtacar.Location = new System.Drawing.Point(30, 166);
-            this.btnAtacar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAtacar.Name = "btnAtacar";
-            this.btnAtacar.Size = new System.Drawing.Size(109, 27);
-            this.btnAtacar.TabIndex = 26;
-            this.btnAtacar.Text = "Atacar";
-            this.btnAtacar.UseVisualStyleBackColor = true;
-            // 
-            // btnEjetar
-            // 
-            this.btnEjetar.Location = new System.Drawing.Point(30, 198);
-            this.btnEjetar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEjetar.Name = "btnEjetar";
-            this.btnEjetar.Size = new System.Drawing.Size(109, 27);
-            this.btnEjetar.TabIndex = 27;
-            this.btnEjetar.Text = "Ejetar";
-            this.btnEjetar.UseVisualStyleBackColor = true;
-            // 
-            // btnArremeter
-            // 
-            this.btnArremeter.Location = new System.Drawing.Point(156, 166);
-            this.btnArremeter.Margin = new System.Windows.Forms.Padding(2);
-            this.btnArremeter.Name = "btnArremeter";
-            this.btnArremeter.Size = new System.Drawing.Size(109, 27);
-            this.btnArremeter.TabIndex = 29;
-            this.btnArremeter.Text = "Arremeter";
-            this.btnArremeter.UseVisualStyleBackColor = true;
-            // 
-            // btnPousar
-            // 
-            this.btnPousar.Location = new System.Drawing.Point(156, 198);
-            this.btnPousar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnPousar.Name = "btnPousar";
-            this.btnPousar.Size = new System.Drawing.Size(109, 27);
-            this.btnPousar.TabIndex = 30;
-            this.btnPousar.Text = "Pousar";
-            this.btnPousar.UseVisualStyleBackColor = true;
-            // 
-            // btnDecolar
-            // 
-            this.btnDecolar.Location = new System.Drawing.Point(156, 135);
-            this.btnDecolar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDecolar.Name = "btnDecolar";
-            this.btnDecolar.Size = new System.Drawing.Size(109, 27);
-            this.btnDecolar.TabIndex = 28;
-            this.btnDecolar.Text = "Decolar";
-            this.btnDecolar.UseVisualStyleBackColor = true;
-            // 
-            // btnLigarLimpador
-            // 
-            this.btnLigarLimpador.Location = new System.Drawing.Point(32, 287);
-            this.btnLigarLimpador.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLigarLimpador.Name = "btnLigarLimpador";
-            this.btnLigarLimpador.Size = new System.Drawing.Size(109, 27);
-            this.btnLigarLimpador.TabIndex = 32;
-            this.btnLigarLimpador.Text = "Ligar Limpador";
-            this.btnLigarLimpador.UseVisualStyleBackColor = true;
-            // 
-            // btnDesempinar
-            // 
-            this.btnDesempinar.Location = new System.Drawing.Point(275, 287);
-            this.btnDesempinar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDesempinar.Name = "btnDesempinar";
-            this.btnDesempinar.Size = new System.Drawing.Size(109, 27);
-            this.btnDesempinar.TabIndex = 36;
-            this.btnDesempinar.Text = "Desempinar";
-            this.btnDesempinar.UseVisualStyleBackColor = true;
-            // 
-            // btnEmpinar
-            // 
-            this.btnEmpinar.Location = new System.Drawing.Point(275, 259);
-            this.btnEmpinar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEmpinar.Name = "btnEmpinar";
-            this.btnEmpinar.Size = new System.Drawing.Size(109, 27);
-            this.btnEmpinar.TabIndex = 35;
-            this.btnEmpinar.Text = "Empinar";
-            this.btnEmpinar.UseVisualStyleBackColor = true;
-            // 
-            // btnDesacelerar
-            // 
-            this.btnDesacelerar.Location = new System.Drawing.Point(152, 287);
-            this.btnDesacelerar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDesacelerar.Name = "btnDesacelerar";
-            this.btnDesacelerar.Size = new System.Drawing.Size(109, 27);
-            this.btnDesacelerar.TabIndex = 34;
-            this.btnDesacelerar.Text = "Desacelerar";
-            this.btnDesacelerar.UseVisualStyleBackColor = true;
-            // 
-            // btnAcelerar
-            // 
-            this.btnAcelerar.Location = new System.Drawing.Point(152, 259);
-            this.btnAcelerar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAcelerar.Name = "btnAcelerar";
-            this.btnAcelerar.Size = new System.Drawing.Size(109, 27);
-            this.btnAcelerar.TabIndex = 33;
-            this.btnAcelerar.Text = "Acelerar";
-            this.btnAcelerar.UseVisualStyleBackColor = true;
-            // 
-            // btnDesligarLimpador
-            // 
-            this.btnDesligarLimpador.Location = new System.Drawing.Point(32, 259);
-            this.btnDesligarLimpador.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDesligarLimpador.Name = "btnDesligarLimpador";
-            this.btnDesligarLimpador.Size = new System.Drawing.Size(109, 27);
-            this.btnDesligarLimpador.TabIndex = 31;
-            this.btnDesligarLimpador.Text = "Desligar Limpador";
-            this.btnDesligarLimpador.UseVisualStyleBackColor = true;
-            // 
-            // tbTipoVeiculoAcoes
-            // 
-            this.tbTipoVeiculoAcoes.Enabled = false;
-            this.tbTipoVeiculoAcoes.Location = new System.Drawing.Point(422, 259);
-            this.tbTipoVeiculoAcoes.Margin = new System.Windows.Forms.Padding(2);
-            this.tbTipoVeiculoAcoes.Name = "tbTipoVeiculoAcoes";
-            this.tbTipoVeiculoAcoes.Size = new System.Drawing.Size(110, 20);
-            this.tbTipoVeiculoAcoes.TabIndex = 37;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(420, 280);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(96, 13);
-            this.label17.TabIndex = 39;
-            this.label17.Text = "Consultar Veículos";
-            // 
-            // cbConsultarVeiculos
-            // 
-            this.cbConsultarVeiculos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbConsultarVeiculos.FormattingEnabled = true;
-            this.cbConsultarVeiculos.Location = new System.Drawing.Point(422, 296);
-            this.cbConsultarVeiculos.Margin = new System.Windows.Forms.Padding(2);
-            this.cbConsultarVeiculos.Name = "cbConsultarVeiculos";
-            this.cbConsultarVeiculos.Size = new System.Drawing.Size(110, 21);
-            this.cbConsultarVeiculos.TabIndex = 38;
-            // 
-            // pCaminhao
-            // 
-            this.pCaminhao.Controls.Add(this.tbCarregarCaminhao);
-            this.pCaminhao.Controls.Add(this.btnCarregar);
-            this.pCaminhao.Controls.Add(this.btnDescarregar);
-            this.pCaminhao.Location = new System.Drawing.Point(418, 21);
-            this.pCaminhao.Margin = new System.Windows.Forms.Padding(2);
-            this.pCaminhao.Name = "pCaminhao";
-            this.pCaminhao.Size = new System.Drawing.Size(114, 90);
-            this.pCaminhao.TabIndex = 40;
-            // 
-            // tbCarregarCaminhao
-            // 
-            this.tbCarregarCaminhao.Location = new System.Drawing.Point(3, 6);
-            this.tbCarregarCaminhao.Margin = new System.Windows.Forms.Padding(2);
-            this.tbCarregarCaminhao.Name = "tbCarregarCaminhao";
-            this.tbCarregarCaminhao.Size = new System.Drawing.Size(110, 20);
-            this.tbCarregarCaminhao.TabIndex = 38;
-            // 
-            // btnCarregar
-            // 
-            this.btnCarregar.Location = new System.Drawing.Point(2, 26);
-            this.btnCarregar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCarregar.Name = "btnCarregar";
-            this.btnCarregar.Size = new System.Drawing.Size(109, 27);
-            this.btnCarregar.TabIndex = 10;
-            this.btnCarregar.Text = "Carregar";
-            this.btnCarregar.UseVisualStyleBackColor = true;
-            // 
-            // btnDescarregar
-            // 
-            this.btnDescarregar.Location = new System.Drawing.Point(2, 58);
-            this.btnDescarregar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDescarregar.Name = "btnDescarregar";
-            this.btnDescarregar.Size = new System.Drawing.Size(109, 27);
-            this.btnDescarregar.TabIndex = 11;
-            this.btnDescarregar.Text = "Descarregar";
-            this.btnDescarregar.UseVisualStyleBackColor = true;
+            this.AcoesCb.FormattingEnabled = true;
+            this.AcoesCb.Location = new System.Drawing.Point(30, 23);
+            this.AcoesCb.Name = "AcoesCb";
+            this.AcoesCb.Size = new System.Drawing.Size(121, 21);
+            this.AcoesCb.TabIndex = 6;
+            this.AcoesCb.SelectedIndexChanged += new System.EventHandler(this.AcoesCb_SelectionChanged);
             // 
             // PanelPedagio
             // 
@@ -666,52 +696,64 @@
             this.PanelPedagio.Size = new System.Drawing.Size(917, 247);
             this.PanelPedagio.TabIndex = 2;
             // 
-            // pOpcaoPedagio
+            // txtListarPedagio
             // 
-            this.pOpcaoPedagio.Controls.Add(this.rbPagarTodoPedagio);
-            this.pOpcaoPedagio.Controls.Add(this.rbPagarPedagio);
-            this.pOpcaoPedagio.Controls.Add(this.rbGerarPedagio);
-            this.pOpcaoPedagio.Location = new System.Drawing.Point(28, 18);
-            this.pOpcaoPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.pOpcaoPedagio.Name = "pOpcaoPedagio";
-            this.pOpcaoPedagio.Size = new System.Drawing.Size(354, 34);
-            this.pOpcaoPedagio.TabIndex = 23;
+            this.txtListarPedagio.Location = new System.Drawing.Point(12, 143);
+            this.txtListarPedagio.Multiline = true;
+            this.txtListarPedagio.Name = "txtListarPedagio";
+            this.txtListarPedagio.Size = new System.Drawing.Size(878, 90);
+            this.txtListarPedagio.TabIndex = 31;
             // 
-            // rbPagarTodoPedagio
+            // btnListarPedagio
             // 
-            this.rbPagarTodoPedagio.AutoSize = true;
-            this.rbPagarTodoPedagio.Location = new System.Drawing.Point(227, 2);
-            this.rbPagarTodoPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.rbPagarTodoPedagio.Name = "rbPagarTodoPedagio";
-            this.rbPagarTodoPedagio.Size = new System.Drawing.Size(123, 17);
-            this.rbPagarTodoPedagio.TabIndex = 25;
-            this.rbPagarTodoPedagio.TabStop = true;
-            this.rbPagarTodoPedagio.Text = "Pagar Todo Pedagio";
-            this.rbPagarTodoPedagio.UseVisualStyleBackColor = true;
+            this.btnListarPedagio.Location = new System.Drawing.Point(633, 102);
+            this.btnListarPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.btnListarPedagio.Name = "btnListarPedagio";
+            this.btnListarPedagio.Size = new System.Drawing.Size(102, 24);
+            this.btnListarPedagio.TabIndex = 30;
+            this.btnListarPedagio.Text = "Listar Pedágio";
+            this.btnListarPedagio.UseVisualStyleBackColor = true;
+            this.btnListarPedagio.Click += new System.EventHandler(this.btnListarPedagio_Click);
             // 
-            // rbPagarPedagio
+            // pPagamento
             // 
-            this.rbPagarPedagio.AutoSize = true;
-            this.rbPagarPedagio.Location = new System.Drawing.Point(116, 2);
-            this.rbPagarPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.rbPagarPedagio.Name = "rbPagarPedagio";
-            this.rbPagarPedagio.Size = new System.Drawing.Size(95, 17);
-            this.rbPagarPedagio.TabIndex = 24;
-            this.rbPagarPedagio.TabStop = true;
-            this.rbPagarPedagio.Text = "Pagar Pedagio";
-            this.rbPagarPedagio.UseVisualStyleBackColor = true;
+            this.pPagamento.Controls.Add(this.label16);
+            this.pPagamento.Controls.Add(this.tbPagarPedagio);
+            this.pPagamento.Controls.Add(this.btnPagarPedagio);
+            this.pPagamento.Location = new System.Drawing.Point(28, 67);
+            this.pPagamento.Margin = new System.Windows.Forms.Padding(2);
+            this.pPagamento.Name = "pPagamento";
+            this.pPagamento.Size = new System.Drawing.Size(236, 32);
+            this.pPagamento.TabIndex = 29;
             // 
-            // rbGerarPedagio
+            // label16
             // 
-            this.rbGerarPedagio.AutoSize = true;
-            this.rbGerarPedagio.Location = new System.Drawing.Point(2, 2);
-            this.rbGerarPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.rbGerarPedagio.Name = "rbGerarPedagio";
-            this.rbGerarPedagio.Size = new System.Drawing.Size(93, 17);
-            this.rbGerarPedagio.TabIndex = 23;
-            this.rbGerarPedagio.TabStop = true;
-            this.rbGerarPedagio.Text = "Gerar Pedagio";
-            this.rbGerarPedagio.UseVisualStyleBackColor = true;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(2, 8);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(61, 13);
+            this.label16.TabIndex = 26;
+            this.label16.Text = "Pagamento";
+            // 
+            // tbPagarPedagio
+            // 
+            this.tbPagarPedagio.Location = new System.Drawing.Point(73, 8);
+            this.tbPagarPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPagarPedagio.Name = "tbPagarPedagio";
+            this.tbPagarPedagio.Size = new System.Drawing.Size(76, 20);
+            this.tbPagarPedagio.TabIndex = 0;
+            // 
+            // btnPagarPedagio
+            // 
+            this.btnPagarPedagio.Location = new System.Drawing.Point(157, 5);
+            this.btnPagarPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPagarPedagio.Name = "btnPagarPedagio";
+            this.btnPagarPedagio.Size = new System.Drawing.Size(75, 24);
+            this.btnPagarPedagio.TabIndex = 3;
+            this.btnPagarPedagio.Text = "Pagar Pedagio";
+            this.btnPagarPedagio.UseVisualStyleBackColor = true;
+            this.btnPagarPedagio.Click += new System.EventHandler(this.btnPagarPedagio_Click);
             // 
             // pDadosPedagio
             // 
@@ -765,6 +807,7 @@
             this.btnGerarPedagio.TabIndex = 2;
             this.btnGerarPedagio.Text = "Gerar Pedagio";
             this.btnGerarPedagio.UseVisualStyleBackColor = true;
+            this.btnGerarPedagio.Click += new System.EventHandler(this.btnGerarPedagio_Click);
             // 
             // label14
             // 
@@ -791,70 +834,55 @@
             this.cbLocalizacaoPedagio.Size = new System.Drawing.Size(76, 21);
             this.cbLocalizacaoPedagio.TabIndex = 20;
             // 
-            // pPagamento
+            // pOpcaoPedagio
             // 
-            this.pPagamento.Controls.Add(this.label16);
-            this.pPagamento.Controls.Add(this.tbPagarPedagio);
-            this.pPagamento.Controls.Add(this.btnPagarPedagio);
-            this.pPagamento.Location = new System.Drawing.Point(28, 67);
-            this.pPagamento.Margin = new System.Windows.Forms.Padding(2);
-            this.pPagamento.Name = "pPagamento";
-            this.pPagamento.Size = new System.Drawing.Size(236, 32);
-            this.pPagamento.TabIndex = 29;
+            this.pOpcaoPedagio.Controls.Add(this.rbPagarTodoPedagio);
+            this.pOpcaoPedagio.Controls.Add(this.rbPagarPedagio);
+            this.pOpcaoPedagio.Controls.Add(this.rbGerarPedagio);
+            this.pOpcaoPedagio.Location = new System.Drawing.Point(28, 18);
+            this.pOpcaoPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.pOpcaoPedagio.Name = "pOpcaoPedagio";
+            this.pOpcaoPedagio.Size = new System.Drawing.Size(354, 34);
+            this.pOpcaoPedagio.TabIndex = 23;
             // 
-            // label16
+            // rbPagarTodoPedagio
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(2, 8);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(61, 13);
-            this.label16.TabIndex = 26;
-            this.label16.Text = "Pagamento";
+            this.rbPagarTodoPedagio.AutoSize = true;
+            this.rbPagarTodoPedagio.Location = new System.Drawing.Point(227, 2);
+            this.rbPagarTodoPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.rbPagarTodoPedagio.Name = "rbPagarTodoPedagio";
+            this.rbPagarTodoPedagio.Size = new System.Drawing.Size(123, 17);
+            this.rbPagarTodoPedagio.TabIndex = 25;
+            this.rbPagarTodoPedagio.TabStop = true;
+            this.rbPagarTodoPedagio.Text = "Pagar Todo Pedagio";
+            this.rbPagarTodoPedagio.UseVisualStyleBackColor = true;
+            this.rbPagarTodoPedagio.CheckedChanged += new System.EventHandler(this.rbPagarTodoPedagio_CheckedChanged);
             // 
-            // tbPagarPedagio
+            // rbPagarPedagio
             // 
-            this.tbPagarPedagio.Location = new System.Drawing.Point(73, 8);
-            this.tbPagarPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.tbPagarPedagio.Name = "tbPagarPedagio";
-            this.tbPagarPedagio.Size = new System.Drawing.Size(76, 20);
-            this.tbPagarPedagio.TabIndex = 0;
+            this.rbPagarPedagio.AutoSize = true;
+            this.rbPagarPedagio.Location = new System.Drawing.Point(116, 2);
+            this.rbPagarPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.rbPagarPedagio.Name = "rbPagarPedagio";
+            this.rbPagarPedagio.Size = new System.Drawing.Size(95, 17);
+            this.rbPagarPedagio.TabIndex = 24;
+            this.rbPagarPedagio.TabStop = true;
+            this.rbPagarPedagio.Text = "Pagar Pedagio";
+            this.rbPagarPedagio.UseVisualStyleBackColor = true;
+            this.rbPagarPedagio.CheckedChanged += new System.EventHandler(this.rbPagarPedagio_CheckedChanged);
             // 
-            // btnPagarPedagio
+            // rbGerarPedagio
             // 
-            this.btnPagarPedagio.Location = new System.Drawing.Point(157, 5);
-            this.btnPagarPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.btnPagarPedagio.Name = "btnPagarPedagio";
-            this.btnPagarPedagio.Size = new System.Drawing.Size(75, 24);
-            this.btnPagarPedagio.TabIndex = 3;
-            this.btnPagarPedagio.Text = "Pagar Pedagio";
-            this.btnPagarPedagio.UseVisualStyleBackColor = true;
-            // 
-            // btnListarPedagio
-            // 
-            this.btnListarPedagio.Location = new System.Drawing.Point(633, 102);
-            this.btnListarPedagio.Margin = new System.Windows.Forms.Padding(2);
-            this.btnListarPedagio.Name = "btnListarPedagio";
-            this.btnListarPedagio.Size = new System.Drawing.Size(102, 24);
-            this.btnListarPedagio.TabIndex = 30;
-            this.btnListarPedagio.Text = "Listar Pedágio";
-            this.btnListarPedagio.UseVisualStyleBackColor = true;
-            // 
-            // txtListarPedagio
-            // 
-            this.txtListarPedagio.Location = new System.Drawing.Point(12, 143);
-            this.txtListarPedagio.Multiline = true;
-            this.txtListarPedagio.Name = "txtListarPedagio";
-            this.txtListarPedagio.Size = new System.Drawing.Size(878, 90);
-            this.txtListarPedagio.TabIndex = 31;
-            // 
-            // AcoesTxt
-            // 
-            this.AcoesTxt.Location = new System.Drawing.Point(30, 364);
-            this.AcoesTxt.Multiline = true;
-            this.AcoesTxt.Name = "AcoesTxt";
-            this.AcoesTxt.Size = new System.Drawing.Size(502, 145);
-            this.AcoesTxt.TabIndex = 41;
+            this.rbGerarPedagio.AutoSize = true;
+            this.rbGerarPedagio.Location = new System.Drawing.Point(2, 2);
+            this.rbGerarPedagio.Margin = new System.Windows.Forms.Padding(2);
+            this.rbGerarPedagio.Name = "rbGerarPedagio";
+            this.rbGerarPedagio.Size = new System.Drawing.Size(93, 17);
+            this.rbGerarPedagio.TabIndex = 23;
+            this.rbGerarPedagio.TabStop = true;
+            this.rbGerarPedagio.Text = "Gerar Pedagio";
+            this.rbGerarPedagio.UseVisualStyleBackColor = true;
+            this.rbGerarPedagio.CheckedChanged += new System.EventHandler(this.rbGerarPedagio_CheckedChanged);
             // 
             // Form1
             // 
@@ -871,18 +899,18 @@
             this.PanelCadastro.PerformLayout();
             this.PanelAcoes.ResumeLayout(false);
             this.PanelAcoes.PerformLayout();
-            this.pOpcaoAcoes.ResumeLayout(false);
-            this.pOpcaoAcoes.PerformLayout();
             this.pCaminhao.ResumeLayout(false);
             this.pCaminhao.PerformLayout();
+            this.pOpcaoAcoes.ResumeLayout(false);
+            this.pOpcaoAcoes.PerformLayout();
             this.PanelPedagio.ResumeLayout(false);
             this.PanelPedagio.PerformLayout();
-            this.pOpcaoPedagio.ResumeLayout(false);
-            this.pOpcaoPedagio.PerformLayout();
-            this.pDadosPedagio.ResumeLayout(false);
-            this.pDadosPedagio.PerformLayout();
             this.pPagamento.ResumeLayout(false);
             this.pPagamento.PerformLayout();
+            this.pDadosPedagio.ResumeLayout(false);
+            this.pDadosPedagio.PerformLayout();
+            this.pOpcaoPedagio.ResumeLayout(false);
+            this.pOpcaoPedagio.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -925,9 +953,6 @@
         private System.Windows.Forms.TextBox tbCarregarCaminhao;
         private System.Windows.Forms.Button btnCarregar;
         private System.Windows.Forms.Button btnDescarregar;
-        private System.Windows.Forms.TextBox tbTipoVeiculoAcoes;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox cbConsultarVeiculos;
         private System.Windows.Forms.Button btnLigarLimpador;
         private System.Windows.Forms.Button btnDesempinar;
         private System.Windows.Forms.Button btnEmpinar;
@@ -944,7 +969,7 @@
         private System.Windows.Forms.RadioButton rbAcoesGerais;
         private System.Windows.Forms.RadioButton rbAcoesEspecificas;
         private System.Windows.Forms.Button btnOk;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox AcoesCb;
         private System.Windows.Forms.Panel PanelPedagio;
         private System.Windows.Forms.TextBox txtListarPedagio;
         private System.Windows.Forms.Button btnListarPedagio;
@@ -963,6 +988,8 @@
         private System.Windows.Forms.RadioButton rbPagarTodoPedagio;
         private System.Windows.Forms.RadioButton rbPagarPedagio;
         private System.Windows.Forms.RadioButton rbGerarPedagio;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox cbConsultarVeiculos;
     }
 }
 

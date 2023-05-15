@@ -34,7 +34,7 @@ namespace GerenciadorVeiculos
         {
             Carga += peso;
         }
-        public void Descarregar(double peso)
+        public void Descarregar()
         {
             Carga = 0;
         }
